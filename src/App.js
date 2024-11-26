@@ -19,7 +19,7 @@ const App = () => {
 				{/* <Navbar /> You can put Navbar here if you want it to appear on every page */}
 				<Routes>
 					{/* Using element prop to render components */}
-					<Route path="/clone_nike" element={<Home />} />
+					<Route path="/" element={<Home />} />
 					<Route path="/login" element={<Auth />} />
 					<Route path="/user" element={<User />} />
 					<Route path="/cart" element={<CartPage />} />
