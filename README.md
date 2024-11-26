@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Nike Clone Website
+This project aims to replicate the main features and functionalities of the Nike official website using React and Redux.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+1. **Product Page:**
+   - Display a list of Nike products  using any product filter.
+   - Search functionality to filter products.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Navbar:**
+   - Navigation links to different sections like Home, Products, Favorites, Cart, User Profile.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Sidebar with Categories and Filters:**
+   - List of categories and an accordion-style filter panel for product filtering based on gender, price and other categories.
 
-### `npm test`
+4. **User Authentication:**
+   - Login and Sign Up functionality.
+  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. **Favorites and Cart:**
+   - Allow users to add products to favorites and cart and also to transfer items from one to another.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+6. **Responsive Design:**
+   - Ensure the website is responsive across different devices using breakpoints.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React
+- Redux
+- HTML/CSS 
+- JavaScript (ES6+)
+- JSON Server
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Run Locally:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To run this project locally:
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Start the local server using `npm start`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Navigation
 
-## Learn More
+- Use the top navigation bar to switch between different sections such as Home, Products, Favorites, Cart, and User Profile.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Product Page
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Explore the list of Nike products displayed on the Product Page.
+- Utilize the search functionality located at the top to find specific products by name or category.
 
-### Code Splitting
+### Filters and Categories
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Navigate the sidebar to view categories and expand the accordion filters.
+- Apply filters to refine product listings based on category, price range, and other attributes.
 
-### Analyzing the Bundle Size
+### User Authentication
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Register a new account using the Sign Up form.
+- Log in with your credentials using the Login form.
+- Access your user profile to view or update personal information.
 
-### Making a Progressive Web App
+### Favorites and Cart
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Add products to your Favorites list by clicking the heart icon on each product card.
+- Manage items in your Cart by adding or removing products.
 
-### Advanced Configuration
+### Responsive Design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Test the responsiveness of the website across different devices (desktop, tablet, mobile) by resizing your browser window or using device emulators.
